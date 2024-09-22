@@ -37,11 +37,6 @@
       "default": false,
       "required": true
     },
-    "category": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::category.category"
-    },
     "additional_images": {
       "type": "media",
       "multiple": true,

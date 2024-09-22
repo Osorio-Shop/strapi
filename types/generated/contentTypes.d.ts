@@ -570,7 +570,6 @@ export interface ApiProductProduct extends Struct.CollectionTypeSchema {
     featured: Schema.Attribute.Boolean &
       Schema.Attribute.Required &
       Schema.Attribute.DefaultTo<false>;
-    category: Schema.Attribute.Relation<'oneToOne', 'api::category.category'>;
     additional_images: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios',
       true
